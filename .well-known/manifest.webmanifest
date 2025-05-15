@@ -1,0 +1,23 @@
+{
+  "name": "Unrestricted USB IWA",
+  "short_name": "UUSB Test",
+  "description": "To test Unrestricted usb feature in a IWA",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any"
+    }
+  ],
+  "start_url": "/",
+  "scope": "/",
+  "display": "fullscreen",
+  "theme_color": "white",
+  "background_color": "white",
+  "isolated_storage": true,
+  "version": "1.0.1",
+  "permissions_policy": {
+    "cross-origin-isolated": ["self"],
+    "usb": ["*"],
+    "usb-unrestricted": ["*"]
+  }
+}
